@@ -63,7 +63,7 @@ sudo pip3 install tensorflow==1.5.0
 ## 1.运行示例代码(包含转换好的xml文件可以直接运行测试)
 
 #### Step1.下载示例代码
-`git clone https://github.com/GitZzw/demo.git`
+`git clone https://github.com/GitZzw/YOLOv3-movidius-upcore-ros-realsense.git`
 
 #### Step2.修改openvino安装路径下的yolo_v3_tiny.json文件
 将两个.json文件中的classes改为1(demo中只有一个识别目标)
@@ -78,7 +78,7 @@ sudo pip3 install tensorflow==1.5.0
 
 ## 2.自己的weights文件转换实现
 #### Step1.下载转换工具
- `git clone https://github.com/GitZzw/demo.git`
+`git clone https://github.com/GitZzw/YOLOv3-movidius-upcore-ros-realsense.git`
 
 #### #### Step2.修改openvino安装路径下的yolo_v3_tiny.json文件
 将两个.json文件中的classes改为你训练时识别目标数量，否则会报错
