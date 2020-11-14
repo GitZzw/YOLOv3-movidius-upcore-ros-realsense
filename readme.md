@@ -58,7 +58,7 @@ sudo pip3 install tensorflow==1.5.0
 
 
 
-# 二.测试识别demo(参考)[https://ptitdeveloper.com/blog/openvino-toi-uu-hoa-hieu-suat-model-darknet-yolov3/]
+# 二.测试识别demo [参考](https://ptitdeveloper.com/blog/openvino-toi-uu-hoa-hieu-suat-model-darknet-yolov3/)
 >  分为两部分，第一部分演示如何运行示例代码，第二部分演示如何实现自己的weights文件部署
 ## 1.运行示例代码(包含转换好的xml文件可以直接运行测试)
 
