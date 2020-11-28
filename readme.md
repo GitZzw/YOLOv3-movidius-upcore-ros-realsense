@@ -27,8 +27,8 @@ source ~/.bashrc
 ```
 
 ## 3.安装movidius(NCS2)依赖
-`cd ~/intel/openvino/install_dependencies`  
-`sudo ./install_NCS_udev_rules.sh`
+`cd /opt/intel/openvino/install_dependencies`  
+`./install_NCS_udev_rules.sh`
 
 ## 4.配置Model Optimizer的依赖（此项较久upcore需要20分钟）
 [参考OpenvinoToolkit](https://docs.openvinotoolkit.org/2019_R2/_docs_install_guides_installing_openvino_linux.html#install-external-dependencies)    
