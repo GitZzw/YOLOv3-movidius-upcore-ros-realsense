@@ -72,9 +72,9 @@ sudo pip3 install tensorflow==1.5.0
 
 #### Step3.运行demo代码
 图像测试
-`python3 object_detection_demo_yolov3_async.py -i demo.jpg -m /demo_weights/frozen_darknet_yolov3_model.xml -d MYRIAD`
+`python3 object_detection_demo_yolov3_async.py -i demo.jpg -m ./demo_weights/frozen_darknet_yolov3_model.xml -d MYRIAD`
 视频测试
-`python3 object_detection_demo_yolov3_async.py -i demo.mp4 -m /demo_weights/frozen_darknet_yolov3_model.xml -d MYRIAD`
+`python3 object_detection_demo_yolov3_async.py -i demo.mp4 -m ./demo_weights/frozen_darknet_yolov3_model.xml -d MYRIAD`
 
 ## 2.自己的weights文件转换实现
 #### Step1.下载转换工具
